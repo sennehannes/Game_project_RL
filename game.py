@@ -21,8 +21,6 @@ class game():
                     self.running = False
                 if event.type == pygame.KEYDOWN:
                     print("a key has been pressed")
-                    if event.key == pygame.K_RSHIFT:
-                        print("pressed entre")
                     if event.key == pygame.K_m:
                         print("m has been pressed")
             pygame.display.update()
